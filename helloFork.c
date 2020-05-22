@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <sys/types.h>
 #include <unistd.h> 
 
 int main(){
@@ -10,4 +9,5 @@ int main(){
 
     printf("ive been forked\n");
 
+    return 0;
 }
